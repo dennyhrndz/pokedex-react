@@ -129,7 +129,7 @@ const PokemonCard = ({ name, url }) => {
   };
 
   const handleCardClick = () => {
-    setExpanded(!expanded);
+    setExpanded((prevExpanded) => !prevExpanded);
   };
 
   return (

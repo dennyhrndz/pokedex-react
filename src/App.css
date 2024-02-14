@@ -20,9 +20,10 @@
   overflow: hidden;
   margin: 10px;
   cursor: pointer;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s ease-in-out;
   width: 250px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 60px; /* Altura inicial */
 }
 
 .pokemon-card:hover {
